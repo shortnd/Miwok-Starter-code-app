@@ -104,7 +104,7 @@ public class ColorsFragment extends Fragment {
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        WordsAdapter adapter = new WordsAdapter(getActivity(), words, R.color.category_numbers);
+        WordsAdapter adapter = new WordsAdapter(getActivity(), words, R.color.category_colors);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
